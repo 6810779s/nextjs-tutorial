@@ -30,4 +30,5 @@ export default function Gnb() {
 }
 
 
-//location.href를 사용하지 않고 router
+//location.href를 이용하면 페이지가 새로고침 되면서 이동됨. -요청이 늘어남
+//사용하지 않고 next Link를 이용하면 페이지안에서 내용물만 바뀜. 
