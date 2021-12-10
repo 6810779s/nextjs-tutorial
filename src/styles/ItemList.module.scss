@@ -1,0 +1,29 @@
+.wrap {
+  text-align: center;
+  padding-bottom: 20px;
+
+  .imgLink {
+    display: block;
+    padding-top: 30px;
+    margin: 0 auto;
+  }
+
+  .itemName {
+    display: -webkit-box;
+    -webkit-line-orient: vertical;
+    width: 160px;
+    margin: 10px auto;
+  }
+
+  .itemInfo {
+    display: block;
+    margin-bottom: 10px;
+    color: #999;
+    text-align: center;
+  }
+
+  .itemPrice {
+    color: rgb(73, 202, 202);
+    font-weight: 900;
+  }
+}

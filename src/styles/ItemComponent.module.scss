@@ -1,0 +1,17 @@
+.wrap {
+  display: flex;
+  padding: 20px;
+  .itemImg {
+    width: 250px;
+  }
+  .itemPrice {
+    color: rgb(73, 202, 202);
+    font-weight: 900;
+    font-size: 30px;
+  }
+}
+.itemDes {
+  padding: 20px;
+  font-size: 20px;
+  line-height: 30px;
+}
