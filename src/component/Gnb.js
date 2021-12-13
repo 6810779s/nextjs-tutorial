@@ -39,6 +39,7 @@ export default function Gnb() {
         name="home"
         active={activeItem === "home"}
         onClick={() => {
+          setActiveItem("home");
           router.push("/");
         }}
       />
@@ -46,14 +47,16 @@ export default function Gnb() {
         name="about"
         active={activeItem === "about"}
         onClick={() => {
+          setActiveItem("about");
           router.push("/about");
         }}
       />
       <Menu.Item
-        name="contacts"
-        active={activeItem === "contacts"}
+        name="contact Us"
+        active={activeItem === "contact"}
         onClick={() => {
-          router.push("/contacts");
+          setActiveItem("contact");
+          router.push("/contact");
         }}
       />
     </Menu>

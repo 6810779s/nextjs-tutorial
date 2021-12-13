@@ -82,6 +82,7 @@ function Gnb() {
                 name: "home",
                 active: activeItem === "home",
                 onClick: ()=>{
+                    setActiveItem("home");
                     router.push("/");
                 }
             }),
@@ -89,14 +90,16 @@ function Gnb() {
                 name: "about",
                 active: activeItem === "about",
                 onClick: ()=>{
+                    setActiveItem("about");
                     router.push("/about");
                 }
             }),
             /*#__PURE__*/ jsx_runtime_.jsx(external_semantic_ui_react_.Menu.Item, {
-                name: "contacts",
-                active: activeItem === "contacts",
+                name: "contact Us",
+                active: activeItem === "contact",
                 onClick: ()=>{
-                    router.push("/contacts");
+                    setActiveItem("contact");
+                    router.push("/contact");
                 }
             })
         ]
